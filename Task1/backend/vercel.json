@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "build": {
+    "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ."
+  },
   "builds": [
     {
       "src": "server.js",

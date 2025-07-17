@@ -1,4 +1,7 @@
 {
+  "build": {
+    "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ."
+  },
   "rewrites": [
     {
       "source": "/(.*)",
